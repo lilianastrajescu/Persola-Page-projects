@@ -123,3 +123,11 @@ p {
   border-radius: 0.3rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
+
+
+@media(max-width:768){
+.col{
+    flex: 0 0 auto;
+    width: 100%;
+}
+}
