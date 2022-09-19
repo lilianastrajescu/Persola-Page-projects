@@ -1,9 +1,12 @@
+
 :root {
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-
+body{
+  padding-bottom: 60px;
+}
 h1,
 h2,
 h3 {
@@ -33,6 +36,7 @@ p {
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
+  background-color: white;
 }
 
 .navigation-links {
@@ -123,8 +127,12 @@ p {
   border-radius: 0.3rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
+.text-section h4,
+p {
+  text-align: start;
+}
 
-@media (max-width: 768px) {
+@media (max-width: 770px) {
   h1 {
     font-size: 50px;
   }
@@ -132,5 +140,18 @@ p {
     flex: 0 0 auto;
     width: 100%;
   }
-
+  .text-section h4,
+  p {
+    text-align: center;
+  }
+   .text-section h4{
+    font-size:30px ;
+  }
+  .button-style a {
+    width: 100%;
+    text-align: center;
+  }
+  #main-title{
+    font-size: 50px ;
+  }
 }
