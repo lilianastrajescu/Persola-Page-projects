@@ -154,4 +154,7 @@ p {
   #main-title{
     font-size: 50px ;
   }
+  .section-images{
+    display: block;
+  }
 }
