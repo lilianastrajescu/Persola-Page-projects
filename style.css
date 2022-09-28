@@ -31,7 +31,6 @@ h4 {
 }
 p {
   background: var(--secondary-color);
-  padding: 20px;
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
@@ -156,5 +155,9 @@ p {
   }
   .section-images{
     display: block;
+  }
+  .col-sm-4 {
+    flex: 0 0 auto;
+    width: 30%;
   }
 }
